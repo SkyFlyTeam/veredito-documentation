@@ -16,9 +16,7 @@
 
 # 📑 Sobre o projeto
 
-Nos tempos atuais, acidentes relacionados a condições meteorológicas (como deslizamentos de terra, inundações etc.) têm se tornado cada vez mais frequentes. Como consequência, áreas mais carentes da região de São José dos Campos sofrem de forma mais intensa com essas situações e, o mais grave: não possuem nenhum tipo de aviso ou alerta em casos de incidentes dessa magnitude.
-
-Diante desse cenário, em parceria com a empresa Tecsus, desenvolvemos o Atmos, uma aplicação web moderna e responsiva, capaz de monitorar o clima e as condições do solo por meio de estações meteorológicas distribuídas pela cidade de São José dos Campos. Essa funcionalidade permite que a aplicação envie alertas em situações de risco, contribuindo para a prevenção de acidentes e a proteção da população.
+---
 
 <br>
 
