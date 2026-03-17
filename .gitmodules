@@ -1,0 +1,6 @@
+[submodule "Frontend"]
+	path = Frontend
+	url = https://github.com/SkyFlyTeam/veredito-frontend.git
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/SkyFlyTeam/veredito-backend.git
