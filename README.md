@@ -106,7 +106,7 @@ O manual da aplicação pode ser acessado através do seguinte: https://frill-wa
 
 # Estrutura do Projeto
 
-![Estrutura](./mgt/Arquitetura%20do%20projeto.png)
+![Estrutura](./mgt/architecture.png)
 
 
 ## Como executar o projeto
