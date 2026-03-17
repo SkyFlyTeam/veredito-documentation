@@ -1,4 +1,4 @@
-![Banner Veredito](./mgt/BannerSmartFarm.png)
+![Banner Veredito](./mgt/BannerVeredito.png)
 
 <br>
 
@@ -16,7 +16,9 @@
 
 # 📑 Sobre o projeto
 
----
+Nos últimos anos, o volume de processos judiciais e a complexidade das teses apresentadas cresceram de forma significativa, tornando mais difícil para juízes e assessores localizar rapidamente precedentes adequados e fundamentar decisões com agilidade e segurança. Esse cenário impacta diretamente a eficiência do Judiciário, prolongando a tramitação dos processos e aumentando o risco de decisões pouco alinhadas à jurisprudência consolidada.
+
+Diante desse contexto, desenvolvemos o Veredito, um aplicativo voltado para magistrados e suas equipes, que recebe a petição inicial (por meio do envio de arquivos como PDF ou DOCX) e realiza a leitura e análise automática do conteúdo. A partir dessa análise, o Veredito gera um resumo da peça e identifica os precedentes mais relevantes relacionados à tese jurídica apresentada, apresentando informações como tribunal, tema, tese, espécie, status e grau de similaridade. Com isso, o sistema oferece uma lista de precedentes ranqueados e classificados quanto à sua aplicabilidade, apoiando a construção de decisões mais céleres, fundamentadas e alinhadas à jurisprudência.
 
 <br>
 
@@ -66,9 +68,9 @@
 Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório, além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint.
 | Sprint | Previsão de entrega | Status | Histórico |
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
-| 01 | 08/09/2025 a 28/09/2025 | Concluída | [Ver relatório](https://github.com/SkyFlyTeam/Atmos-documentation/tree/sprint1) |
-| 02 | 06/10/2025 a 26/10/2025 | Concluída | [Ver relatório]() |
-| 03 | 03/11/2025 a 23/11/2025 | Concluída |  [Ver relatório]()|
+| 01 | 16/03/2025 a 05/04/2025 | Concluída | [Ver relatório](https://github.com/SkyFlyTeam/Atmos-documentation/tree/sprint1) |
+| 02 | 13/04/2025 a 03/05/2025 | Concluída | [Ver relatório]() |
+| 03 | 11/05/2025 a 31/05/2025 | Concluída |  [Ver relatório]()|
 
 <br />
 
@@ -81,12 +83,13 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 ![Typescript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript&logoColor=007ACC)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node%20js-20232A?style=for-the-badge&logo=nodedotjs&logoColor=339933)
+![Nest.js](https://img.shields.io/badge/NestJS-20232A?style=for-the-badge&logo=nestjs&logoColor=E0234E)
 ![Next](https://img.shields.io/badge/Nextjs-20232A?style=for-the-badge&logo=next.js&logoColor=23ED8B00)
 ![Express](https://img.shields.io/badge/Expressjs-20232A?style=for-the-badge&logo=express&logoColor=23ED8B00)
-![Arduino](https://img.shields.io/badge/Arduino-20232A?style=for-the-badge&logo=arduino&logoColor=00979D)
 ![Docker](https://img.shields.io/badge/docker-20232A?style=for-the-badge&logo=docker&logoColor=87CEEB)
 ![MySQL](https://img.shields.io/badge/mysql-20232A?style=for-the-badge&logo=mysql&logoColor=4682B4)
 ![MongoDB](https://img.shields.io/badge/MongoDB-20232A?style=for-the-badge&logo=mongodb&logoColor=234ea94b)
+![Flutter](https://img.shields.io/badge/Flutter-20232A?style=for-the-badge&logo=flutter&logoColor=61DAFB)
 ![CSS3](https://img.shields.io/badge/css3-20232A?style=for-the-badge&logo=css3&logoColor=4682B4)
 ![Figma](https://img.shields.io/badge/figma-20232A?style=for-the-badge&logo=figma&logoColor=800000)
 ![Discord](https://img.shields.io/badge/Discord-20232A?style=for-the-badge&logo=discord&logoColor=61DAFB)
@@ -111,8 +114,8 @@ O manual da aplicação pode ser acessado através do seguinte: https://frill-wa
 1 . Clone os repositórios:
 - [Necessita do git instalado](https://git-scm.com/downloads)
 ```
-git clone https://github.com/SkyFlyTeam/Atmos-frontend.git
-git clone https://github.com/SkyFlyTeam/Atmos-backend.git
+git clone https://github.com/SkyFlyTeam/veredito-frontend.git
+git clone https://github.com/SkyFlyTeam/veredito-backend.git
 ```
 
 2 . Configurando e executando backend: 
@@ -182,12 +185,12 @@ npm run dev
 <span id="links">
 
 # 🔗 Links úteis
-- [Modelo lógico do Banco de Dados](https://drive.google.com/file/d/12QT37gpqIwlUWXJmurE72GGgu8Mt4sjX/view?usp=sharing)
-- [Product backlog detalhado](https://docs.google.com/document/d/1vjvclXg3ROMe8RTefvWXqM33MQ0H1MwmVwH9GwyZX0k/edit?usp=sharing)
-- [Wireframe da aplicação](https://www.figma.com/design/I2ve5ty4HGnBXGKYEpamqh/Atmos?node-id=0-1&p=f&t=etRZoSKjtiXJjEUf-0)
-- [Arquitetura do projeto](https://drive.google.com/file/d/1Z24zyW6E9l9ZoS8rbZVUWsgV5O73bVz_/view?usp=sharing)
-- [Fluxo de trabalho no git](https://docs.google.com/document/d/1S3pPiDfFxXogIJifizV-DtknxKtDUQphnejfTrRW8t8/edit?usp=sharing)
-- [Estratégia de branch](https://drive.google.com/file/d/18F6FAJzD4ICA4dIlYwwmbBYVurj4LQJG/view?usp=sharing)
+- [Modelo lógico do Banco de Dados](https://drive.google.com/file/d/1lf5L-8od-ICau__2sKFTcXsr7jnM3YVJ/view?usp=drive_link)
+- [Product backlog detalhado](https://docs.google.com/document/d/1ccq_H_ighBNAnQGasE96qoWzPDBUzh8qnafRRzzu0S4/edit?usp=drive_link)
+- [Wireframe da aplicação](https://www.figma.com/design/lil1yJQnbpxD0KT1nYMGMY/Veredito?node-id=46-747&p=f&t=1BYsslYJooGG2601-0)
+- [Arquitetura do projeto](https://drive.google.com/file/d/1qUUGlycurkHo2hB_AhqxmZaqfp-lcXRD/view?usp=drive_link)
+- [Fluxo de trabalho no git](https://drive.google.com/file/d/1FrOnW7kL2z8Eq5TEqqtXiip583erGgH-/view?usp=drive_link)
+- [Estratégia de branch](https://drive.google.com/file/d/1FrOnW7kL2z8Eq5TEqqtXiip583erGgH-/view?usp=drive_link)
 <br>
 
 
@@ -198,11 +201,9 @@ npm run dev
 
 |    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
 | :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  Scrum Master  | Sarah Montuani Batagioti               |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sarahbatagioti/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/SarahBatagioti)   |
 | Team Member   | André Salerno |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/andresalerno/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/andresalerno)     |
-|  Team Member  | Brenno Rosa Lyrio de Oliveira               |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/brennolyrio/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/BrennoLyrio)   |
-| Product Owner   | Eric Lourenço Mendes da Silva      |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ericloumendes)        |
-|  Team Member  | Gustavo Muraoka Silva                 |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-muraoka-4256721ba/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gustavomuraoka)        |
-|  Team Member  | Karen de Cássia Gonçalves     |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/karen-cgonçalves) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/karengoncalves8)   |
+|  Scrum Master  | Brenno Rosa Lyrio de Oliveira               |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/brennolyrio/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/BrennoLyrio)   |
+| Team Member   | Eric Lourenço Mendes da Silva      |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ericloumendes)        |
+|  Product Owner  | Karen de Cássia Gonçalves     |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/karen-cgonçalves) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/karengoncalves8)   |
 |  Team Member  | Guilherme dos Santos Benedito               |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-benedito/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gui-benedito)   |
-|  Team Member  | Arthur Johannes Rodrigues Peres y Peres              |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ajperes/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ajperes)   |
+|  Team Member  | Ivan Suiyama Silva             |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/IvanSuiyama/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/IvanSuiyama)   |
