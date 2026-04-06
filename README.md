@@ -50,8 +50,8 @@ Diante desse contexto, desenvolvemos o Veredito, um aplicativo voltado para magi
 | RFN | Rank | Prioridade | User story | Estimativa | Sprint | Critérios de aceitação |
 |-----|------|------------|------------|------------|--------|-------------------------|
 | 01 | 1 | Alta | Como juiz, quero fazer o upload do arquivo da minha petição inicial para que o sistema possa analisar os fatos envolvidos. | 5 | 1 | - Suporte aos formatos .docx, .pdf, .txt <br> - Confirmação visual de que o arquivo foi recebido com sucesso. <br> - Mensagem de erro caso o arquivo não seja suportado. |
-| 09 | 2 | Alta | Como novo usuário, desejo poder me cadastrar para obter acesso ao sistema e poder utilizar todas as suas funcionalidades. | 3 | 1 | - Campos obrigatórios: Nome completo, e-mail válido e senha segura. <br> - A senha deve conter no mínimo 8 dígitos, um caractere especial e um número <br> - O sistema deve impedir cadastros com e-mails existentes. |
-| 03 | 3 | Alta | Como juiz, desejo receber sugestões de precedentes para identificar quais podem auxiliar na minha tomada de decisão. | 13 | 1 | - Listar tribunal, tema, enunciado, status e tese firmada, data de atualização e espécie. |
+| 01 | 2 | Alta | Como novo usuário, desejo poder me cadastrar para obter acesso ao sistema e poder utilizar todas as suas funcionalidades. | 3 | 1 | - Campos obrigatórios: Nome completo, e-mail válido e senha segura. <br> - A senha deve conter no mínimo 8 dígitos, um caractere especial e um número <br> - O sistema deve impedir cadastros com e-mails existentes. |
+| 09 | 3 | Alta | Como juiz, desejo receber sugestões de precedentes para identificar quais podem auxiliar na minha tomada de decisão. | 13 | 1 | - Listar tribunal, tema, enunciado, status e tese firmada, data de atualização e espécie. |
 | 05 | 4 | Alta | Como juiz, desejo que cada precedente sugerido apresente um percentual de similaridade com o caso para que eu possa julgar quais podem ser utilizados. | 5 | 2 | - Exibir em porcentagem (%) o índice de similaridade semântica |
 | 06 | 5 | Alta | Como juiz, desejo que cada precedente sugerido apresente um indicador claro de aplicabilidade no caso, para que eu possa facilmente se ele é relevante para a minha decisão. | 3 | 2 | - Classificar entre: "Aplicável", "Possivelmente aplicável" ou "Não aplicável" <br> - Mostrar uma legenda com o parâmetro de classificação |
 | 07 | 6 | Alta | Como juiz, eu quero ler uma síntese explicativa da relação entre o precedente e minha petição para entender o porquê daquela sugestão e usá-la na minha fundamentação. | 8 | 2 | - Texto curto, no máximo um parágrafo <br> - Deve descrever a correlação entre o precedente e a petição enviada |
@@ -68,9 +68,9 @@ Diante desse contexto, desenvolvemos o Veredito, um aplicativo voltado para magi
 Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório, além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint.
 | Sprint | Previsão de entrega | Status | Histórico |
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
-| 01 | 16/03/2025 a 05/04/2025 | Concluída | [Ver relatório](https://github.com/SkyFlyTeam/Atmos-documentation/tree/sprint1) |
-| 02 | 13/04/2025 a 03/05/2025 | Concluída | [Ver relatório]() |
-| 03 | 11/05/2025 a 31/05/2025 | Concluída |  [Ver relatório]()|
+| 01 | 16/03/2025 a 05/04/2025 | Concluída ✔ | [Ver relatório](https://github.com/SkyFlyTeam/veredito-documentation/tree/sprint1) |
+| 02 | 13/04/2025 a 03/05/2025 | A fazer | :construction: |
+| 03 | 11/05/2025 a 31/05/2025 | A fazer |  :construction: |
 
 <br />
 
@@ -80,17 +80,12 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 
 As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
 
-![Typescript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript&logoColor=007ACC)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node%20js-20232A?style=for-the-badge&logo=nodedotjs&logoColor=339933)
 ![Nest.js](https://img.shields.io/badge/NestJS-20232A?style=for-the-badge&logo=nestjs&logoColor=E0234E)
-![Next](https://img.shields.io/badge/Nextjs-20232A?style=for-the-badge&logo=next.js&logoColor=23ED8B00)
-![Express](https://img.shields.io/badge/Expressjs-20232A?style=for-the-badge&logo=express&logoColor=23ED8B00)
+![PostgreSQL](https://img.shields.io/badge/postgres-20232A?style=for-the-badge&logo=postgresql&logoColor=316192)
 ![Docker](https://img.shields.io/badge/docker-20232A?style=for-the-badge&logo=docker&logoColor=87CEEB)
-![MySQL](https://img.shields.io/badge/mysql-20232A?style=for-the-badge&logo=mysql&logoColor=4682B4)
-![MongoDB](https://img.shields.io/badge/MongoDB-20232A?style=for-the-badge&logo=mongodb&logoColor=234ea94b)
 ![Flutter](https://img.shields.io/badge/Flutter-20232A?style=for-the-badge&logo=flutter&logoColor=61DAFB)
-![CSS3](https://img.shields.io/badge/css3-20232A?style=for-the-badge&logo=css3&logoColor=4682B4)
+![Dart](https://img.shields.io/badge/dart-20232A?style=for-the-badge&logo=dart&logoColor=0175C2)
 ![Figma](https://img.shields.io/badge/figma-20232A?style=for-the-badge&logo=figma&logoColor=800000)
 ![Discord](https://img.shields.io/badge/Discord-20232A?style=for-the-badge&logo=discord&logoColor=61DAFB)
 ![Jira](https://img.shields.io/badge/Jira-20232A?style=for-the-badge&logo=Jira&logoColor=4169E1)
@@ -143,18 +138,18 @@ npm start
 ```
 
 3 . Configurando e executando o frontend
-- [Necessita do node.js 20.17](https://nodejs.org/pt)
+- [Necessita do Flutter](https://docs.flutter.dev/install)
 
 Na basta do frontend, execute:
 
 Para instalar as dependências do projeto:
 ```
-npm install
+flutter pub get
 ```
 
 Para iniciar o projeto:
 ```
-npm run dev
+flutter run --flavor dev
 ```
 
 
