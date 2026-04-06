@@ -42,12 +42,12 @@ Como novo usuário, desejo poder me cadastrar para obter acesso ao sistema e pod
 <span id="metricas">
 
 # 📈 Métricas do Time
-<p>Em breve</p>
+<p>Segue abaixo o gráfico Burndown da equipe durante a Sprint 1</p>
 
 <br />
     
 <div align="center">
-<!-- <img src="./mgt/burndown.png" alt="Gráfico Burndown" /> -->
+<img src="./mgt/burndown-sprint1.png" alt="Gráfico Burndown Sprint 1" />
 </div>
 
 <br>
@@ -59,15 +59,16 @@ Como novo usuário, desejo poder me cadastrar para obter acesso ao sistema e pod
 | **RFN** | **Rank** | **Prioridade** | **User Story**                                                                                                             | **Estimativa** | **Sprint** | **Critérios de Aceitação**                                                                                                                                                                                             |
 | ------- | -------- | -------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 01      | 1        | Alta           | Como juiz, quero fazer o upload do arquivo da minha petição inicial para que o sistema possa analisar os fatos envolvidos. | 5              | 1          | - Suporte aos formatos .docx, .pdf, .txt; <br> - Confirmação visual de que o arquivo foi recebido com sucesso; <br> - Mensagem de erro caso o arquivo não seja suportado;                                              |
-| 03      | 2        | Alta           | Como novo usuário, desejo poder me cadastrar para obter acesso ao sistema e poder utilizar todas as suas funcionalidades.  | 3              | 1          | - Campos obrigatórios: Nome completo, e-mail válido e senha segura; <br> - A senha deve conter no mínimo 8 dígitos, um caractere especial e um número; <br> - O sistema deve impedir cadastros com e-mails existentes; |
-| 09      | 3        | Alta           | Como juiz, desejo receber sugestões de precedentes para identificar quais podem auxiliar na minha tomada de decisão.       | 13             | 1          | - Listar tribunal, tema, enunciado, status e tese firmada, data de atualização e espécie;                                                                                                                              |
+| 01      | 2        | Alta           | Como novo usuário, desejo poder me cadastrar para obter acesso ao sistema e poder utilizar todas as suas funcionalidades.  | 3              | 1          | - Campos obrigatórios: Nome completo, e-mail válido e senha segura; <br> - A senha deve conter no mínimo 8 dígitos, um caractere especial e um número; <br> - O sistema deve impedir cadastros com e-mails existentes; |
+| 03      | 3        | Alta           | Como juiz, desejo receber sugestões de precedentes para identificar quais podem auxiliar na minha tomada de decisão.       | 13             | 1          | - Listar tribunal, tema, enunciado, status e tese firmada, data de atualização e espécie;                                                                                                                              |
 
 
 <span id="links">
 
 # 🔗 Links úteis
 
-- Tags geradas em cada repositório que simbolizam o fim da 1ª sprint:
- <p>Em breve</p>
+- Tags geradas em cada repositório que simbolizam o fim da 1ª sprint: <br>
+ [v1.0.0 BACKEND](https://github.com/SkyFlyTeam/veredito-backend/releases/tag/v1.0.0) <br>
+ [v1.0.0 FRONTEND](https://github.com/SkyFlyTeam/veredito-frontend/releases/tag/v1.0.0)
 <br>
 
