@@ -42,6 +42,19 @@ Diante desse contexto, desenvolvemos o Veredito, um aplicativo voltado para magi
 
 - **RFN09. Cadastro de Usuários:** A aplicação deve permitir o registro de um novo usuário, solicitando informações como nome completo, e-mail e senha.
 
+- **RFN10. Envio de Processo Jurídico:** O sistema deve permitir o envio de arquivos contendo processos jurídicos completos e a inserção do contexto do tribunal, possibilitando o armazenamento e processamento das informações para análise posterior.
+
+- **RFN11. Classificação das Partes de um Processo:** Dado um processo jurídico completo, o sistema deve classificar automaticamente partes relevantes, como petição inicial, contestação, recurso e sentença/acórdão.
+
+- **RFN12. Geração de Minuta de Sentença:** O sistema deve permitir a geração automática de uma minuta de sentença a partir de um processo jurídico enviado, considerando as decisões, parâmetros e informações definidos pelo usuário.
+
+- **RFN13. Geração de Minuta de Petição Inicial:** O sistema deve permitir a geração automática de uma minuta de petição inicial com base na descrição e nas informações fornecidas sobre o caso, contendo fatos estruturados, fundamentos jurídicos e precedentes relevantes destacados.
+
+- **RFN14. Edição de Minuta de Petição Inicial:** O sistema deve permitir que o usuário edite as minutas de petições iniciais geradas, possibilitando alterações no conteúdo antes da finalização do documento.
+
+- **RFN15. Exportação de Minuta de Petição Inicial:** O sistema deve permitir a exportação das minutas de petições iniciais geradas em formato de arquivo, possibilitando seu download.
+
+<br>
 
 <span id="backlog">
 
