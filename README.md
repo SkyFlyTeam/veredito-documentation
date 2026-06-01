@@ -47,17 +47,23 @@ Diante desse contexto, desenvolvemos o Veredito, um aplicativo voltado para magi
 
 # 🎯 Backlog do Produto
 
-| RFN | Rank | Prioridade | User story | Estimativa | Sprint | Critérios de aceitação |
-|-----|------|------------|------------|------------|--------|-------------------------|
-| 01 | 1 | Alta | Como juiz, quero fazer o upload do arquivo da minha petição inicial para que o sistema possa analisar os fatos envolvidos. | 5 | 1 | - Suporte aos formatos .docx, .pdf, .txt <br> - Confirmação visual de que o arquivo foi recebido com sucesso. <br> - Mensagem de erro caso o arquivo não seja suportado. |
-| 01 | 2 | Alta | Como novo usuário, desejo poder me cadastrar para obter acesso ao sistema e poder utilizar todas as suas funcionalidades. | 3 | 1 | - Campos obrigatórios: Nome completo, e-mail válido e senha segura. <br> - A senha deve conter no mínimo 8 dígitos, um caractere especial e um número <br> - O sistema deve impedir cadastros com e-mails existentes. |
-| 09 | 3 | Alta | Como juiz, desejo receber sugestões de precedentes para identificar quais podem auxiliar na minha tomada de decisão. | 13 | 1 | - Listar tribunal, tema, enunciado, status e tese firmada, data de atualização e espécie. |
-| 05 | 4 | Alta | Como juiz, desejo que cada precedente sugerido apresente um percentual de similaridade com o caso para que eu possa julgar quais podem ser utilizados. | 5 | 2 | - Exibir em porcentagem (%) o índice de similaridade semântica |
-| 06 | 5 | Alta | Como juiz, desejo que cada precedente sugerido apresente um indicador claro de aplicabilidade no caso, para que eu possa facilmente se ele é relevante para a minha decisão. | 3 | 2 | - Classificar entre: "Aplicável", "Possivelmente aplicável" ou "Não aplicável" <br> - Mostrar uma legenda com o parâmetro de classificação |
-| 07 | 6 | Alta | Como juiz, eu quero ler uma síntese explicativa da relação entre o precedente e minha petição para entender o porquê daquela sugestão e usá-la na minha fundamentação. | 8 | 2 | - Texto curto, no máximo um parágrafo <br> - Deve descrever a correlação entre o precedente e a petição enviada |
-| 02 | 7 | Média | Como juiz, quero visualizar um resumo automático da petição enviada para que eu possa identificar rapidamente os que podem auxiliar na minha tomada de decisão. | 5 | 2 | - O resumo deve destacar claramente a "Tese Jurídica" e a "Solicitação/Pedido" <br> - No máximo um parágrafo, escrito de forma clara e concisa. |
-| 04 | 8 | Média | Como juiz, quero filtrar a lista de precedentes sugeridos por tribunal, espécie ou status para focar apenas nas decisões que são vinculantes ou do meu estado. | 5 | 3 | - Filtros funcionais para Tribunal (ex: STJ, STF, TJSP) <br> - Filtros por Espécie (ex: IRDR, Recurso Repetitivo). <br> - Filtros por Status (ex: Transitado em Julgado). |
-| 08 | 9 | Baixa | Como juiz, eu quero acessar o histórico das petições analisadas anteriormente para recuperar análises já feitas sem precisar reenviar os arquivos. | 3 | 3 | - Exibir a data e hora em que o processo foi realizado <br> - Listar nome do arquivo, resumo gerado e precedentes sugeridos, com os indicadores de aplicabilidade e síntese explicativa. |
+| **RFN** | **Rank** | **Prioridade** | **User Story** | **Estimativa** | **Sprint** | **Critérios de Aceitação** |
+| ------- | -------- | -------------- | -------------- | -------------- | ---------- | -------------------------- |
+| 01 | 1 | Alta | Como juiz, quero fazer o upload do arquivo da minha petição inicial para que o sistema possa analisar os fatos envolvidos. | 5 | 1 | - Suporte aos formatos `.docx`, `.pdf`, `.txt`;<br>- Confirmação visual de que o arquivo foi recebido com sucesso;<br>- Mensagem de erro caso o arquivo não seja suportado. |
+| 01 | 2 | Alta | Como novo usuário, desejo poder me cadastrar para obter acesso ao sistema e poder utilizar todas as suas funcionalidades. | 3 | 1 | - Campos obrigatórios: Nome completo, e-mail válido e senha segura;<br>- A senha deve conter no mínimo 8 dígitos, um caractere especial e um número;<br>- O sistema deve impedir cadastros com e-mails existentes. |
+| 03 | 3 | Alta | Como juiz, desejo receber sugestões de precedentes para identificar quais podem auxiliar na minha tomada de decisão. | 13 | 1 | - Listar tribunal, tema, enunciado, status e tese firmada, data de atualização e espécie. |
+| 05 | 4 | Alta | Como juiz, desejo que cada precedente sugerido apresente um percentual de similaridade com o caso, para que eu possa julgar quais podem ser utilizados. | 5 | 2 | - Exibir em porcentagem (%) o índice de similaridade semântica. |
+| 06 | 5 | Alta | Como juiz, desejo que cada precedente sugerido apresente um indicador claro de aplicabilidade no caso, para que eu possa identificar facilmente se ele é relevante para a minha decisão. | 3 | 2 | - Classificar entre: "Aplicável", "Possivelmente aplicável" ou "Não aplicável";<br>- Mostrar uma legenda com o parâmetro de classificação;<br>- Faixa de Classificação:<br>&nbsp;&nbsp;- `>= 70%`: Aplicável;<br>&nbsp;&nbsp;- `> 40% e < 70%`: Possivelmente aplicável;<br>&nbsp;&nbsp;- `<= 40%`: Não aplicável. |
+| 07 | 6 | Alta | Como juiz, eu quero ler uma síntese explicativa da relação entre o precedente e minha petição para entender o porquê daquela sugestão e usá-la na minha fundamentação. | 8 | 2 | - Texto curto, no máximo um parágrafo;<br>- Deve descrever a correlação entre o precedente e a petição enviada. |
+| 02 | 7 | Média | Como juiz, quero visualizar um resumo automático da petição enviada para que eu possa identificar rapidamente os que podem auxiliar na minha tomada de decisão. | 5 | 2 | - O resumo deve destacar claramente a "Tese Jurídica" e a "Solicitação/Pedido";<br>- No máximo um parágrafo, escrito de forma clara e concisa. |
+| 10 | 8 | Alta | Como juiz, desejo enviar arquivos contendo processos jurídicos completos e inserir o contexto do tribunal, para que eu possa os analisar posteriormente. | 5 | 3 | - Suporte aos formatos `.docx`, `.pdf`, `.txt`;<br>- Confirmação visual de que o arquivo foi recebido com sucesso;<br>- Formulário para a coleta do contexto do tribunal, contendo: tribunal, instância, classe processual e área do direito;<br>- O campo de tribunal deve ser preenchido com base nos tribunais registrados no sistema;<br>- Mensagem de erro caso o arquivo não seja suportado. |
+| 11 | 9 | Alta | Como juiz, devo visualizar todas as partes do processo classificadas devidamente, para que eu possa visualizar de forma clara todo seu conteúdo facilmente. | 13 | 3 | - Obrigatoriamente, todo processo deve ter uma petição inicial;<br>- Caso haja, devem ser classificados: contestação, recurso, sentença/acórdão. |
+| 12 | 9 | Alta | Como juiz, desejo gerar automaticamente uma minuta de sentença com base em um processo jurídico enviado, para que eu possa obter uma versão inicial do documento formalizando minha decisão e considerando as informações do processo. | 8 | 3 | - Exportar a minuta em um arquivo PDF;<br>- Antes, solicitar as seguintes informações através de um formulário: descrição da decisão e precedentes sugeridos para serem selecionados;<br>- A minuta deve conter as informações necessárias para formalizar a decisão com base no processo enviado. |
+| 13 | 10 | Alta | Como advogado, desejo gerar automaticamente uma minuta de petição inicial a partir da descrição e das informações do caso, para que eu tenha uma versão inicial estruturada do documento jurídico. | 8 | 3 | - As seguintes informações devem estar contidas: fatos estruturados, fundamentos jurídicos, tese central, pedidos e citações de precedentes com trechos destacados;<br>- Formulário para preencher a descrição do caso, pedindo: área do direito, pedidos principais, tribunal/UF, tese pretendida e upload de documentos. |
+| 14 | 11 | Alta | Como advogado, quero editar o conteúdo da minuta de petição inicial gerada, para que eu possa ajustar o documento antes de finalizá-lo. | 3 | 3 | - Para cada campo da minuta, deve ser possível editar e salvar automaticamente;<br>- Nenhum campo pode ser enviado vazio;<br>- Mensagem de erro caso as regras de validações sejam quebradas. |
+| 15 | 12 | Alta | Como advogado, quero exportar a minuta de petição inicial em formato de arquivo, para que eu possa realizar o download e utilizar o documento posteriormente. | 3 | 3 | - O arquivo deve ser gerado no formato DOCX;<br>- O arquivo deve ser salvo automaticamente na pasta de Downloads;<br>- O nome do arquivo deve permitir identificar a minuta exportada;<br>- Mensagem de aviso informando caso o download não possa ser realizado. |
+| 04 | 14 | Média | Como juiz, quero filtrar a busca por precedentes por tribunal ou espécie para focar apenas nas decisões que são vinculantes ou do meu estado. | 5 | 3 | - Filtros funcionais para Tribunal, por exemplo: STJ, STF, TJSP;<br>- Filtros por Espécie, por exemplo: IRDR, Recurso Repetitivo;<br>- Os filtros devem ser aplicados antes da busca de precedentes. |
+| 08 | 15 | Baixa | Como juiz, eu quero acessar o histórico das petições analisadas anteriormente para recuperar análises já feitas sem precisar reenviar os arquivos. | 3 | 3 | - Exibir a data e hora em que o processo foi realizado;<br>- Listar nome do arquivo, resumo gerado e precedentes sugeridos, com os indicadores de aplicabilidade e síntese explicativa. |
 
 <br>
 
@@ -69,8 +75,8 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 | Sprint | Previsão de entrega | Status | Histórico |
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
 | 01 | 16/03/2025 a 05/04/2025 | Concluída ✔ | [Ver relatório](https://github.com/SkyFlyTeam/veredito-documentation/tree/sprint1) |
-| 02 | 13/04/2025 a 03/05/2025 | A fazer | :construction: |
-| 03 | 11/05/2025 a 31/05/2025 | A fazer |  :construction: |
+| 02 | 13/04/2025 a 03/05/2025 |  Concluída ✔ | [Ver relatório](https://github.com/SkyFlyTeam/veredito-documentation/tree/sprint2) |
+| 03 | 11/05/2025 a 31/05/2025 | Concluída ✔ | [Ver relatório](https://github.com/SkyFlyTeam/veredito-documentation/tree/sprint3) |
 
 <br />
 
@@ -94,7 +100,9 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 # Manual de Usuário e Instalação
 
-O manual da aplicação pode ser acessado através do seguinte: https://frill-walkover-a45.notion.site/ATMOS-Manual-do-usu-rio-2a2a1b635ed68083be75ea39f2c097fc?source=copy_link
+O manual de instalação pode ser acessado através do seguinte link: [Manual de Instalação](./mgt/Veredito%20-%20Manual%20de%20Instalação.pdf)
+
+O manual do usuário pode ser acessado através do seguinte link: [Manual do Usuário](./mgt/Veredito%20-%20Manual%20do%20Usuário.pdf)
 
 
 <span id="estrutura">
@@ -180,7 +188,7 @@ flutter run --flavor dev
 <span id="links">
 
 # 🔗 Links úteis
-- [Modelo lógico do Banco de Dados](https://drive.google.com/file/d/1lf5L-8od-ICau__2sKFTcXsr7jnM3YVJ/view?usp=drive_link)
+- [Modelo lógico do Banco de Dados](https://drive.google.com/drive/u/0/folders/1ygoHa6sKV5rbtAdRM1MXXLF_uZXHqHLZ)
 - [Product backlog detalhado](https://docs.google.com/document/d/1ccq_H_ighBNAnQGasE96qoWzPDBUzh8qnafRRzzu0S4/edit?usp=drive_link)
 - [Wireframe da aplicação](https://www.figma.com/design/lil1yJQnbpxD0KT1nYMGMY/Veredito?node-id=46-747&p=f&t=1BYsslYJooGG2601-0)
 - [Arquitetura do projeto](https://drive.google.com/file/d/1qUUGlycurkHo2hB_AhqxmZaqfp-lcXRD/view?usp=drive_link)
